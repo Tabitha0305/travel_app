@@ -49,7 +49,19 @@ class _WelcomePageState extends State<WelcomePage> {
     size: 14,
     ), // AppText
     ) // Container
-    ],
+    Column(
+    children: List.generate(3, (index){
+    return Container(
+    width: 8,
+    height: 25,
+    ); // Container
+    }), //List.generate
+     ) //Column
+    ]
+    ) // Row
+
+
+
 
 
 
